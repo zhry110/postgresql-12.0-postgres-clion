@@ -1,0 +1,2100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="test_postgres"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/tmp/tmp.QsQp0qBlu9/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.QsQp0qBlu9/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.QsQp0qBlu9/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.QsQp0qBlu9/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.QsQp0qBlu9/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/tmp/tmp.QsQp0qBlu9/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.QsQp0qBlu9/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.QsQp0qBlu9/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.QsQp0qBlu9/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.QsQp0qBlu9/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_postgres">
+				<Option output="/tmp/tmp.QsQp0qBlu9/cmake-build-debug/test_postgres" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.QsQp0qBlu9/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DDLSUFFIX=&apos;.so&apos;"/>
+					<Add directory="/tmp/tmp.QsQp0qBlu9/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.QsQp0qBlu9/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_postgres"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.QsQp0qBlu9/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.QsQp0qBlu9/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.QsQp0qBlu9/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_postgres/fast">
+				<Option output="/tmp/tmp.QsQp0qBlu9/cmake-build-debug/test_postgres" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.QsQp0qBlu9/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DDLSUFFIX=&apos;.so&apos;"/>
+					<Add directory="/tmp/tmp.QsQp0qBlu9/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.QsQp0qBlu9/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_postgres/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.QsQp0qBlu9/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.QsQp0qBlu9/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.QsQp0qBlu9/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/tmp/tmp.QsQp0qBlu9/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.QsQp0qBlu9/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.QsQp0qBlu9/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.QsQp0qBlu9/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.QsQp0qBlu9/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/brin/brin.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/brin/brin_inclusion.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/brin/brin_minmax.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/brin/brin_pageops.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/brin/brin_revmap.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/brin/brin_tuple.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/brin/brin_validate.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/brin/brin_xlog.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/common/bufmask.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/common/heaptuple.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/common/indextuple.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/common/printsimple.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/common/printtup.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/common/relation.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/common/reloptions.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/common/scankey.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/common/session.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/common/tupconvert.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/common/tupdesc.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/gin/ginarrayproc.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/gin/ginbtree.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/gin/ginbulk.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/gin/gindatapage.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/gin/ginentrypage.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/gin/ginfast.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/gin/ginget.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/gin/gininsert.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/gin/ginlogic.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/gin/ginpostinglist.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/gin/ginscan.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/gin/ginutil.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/gin/ginvacuum.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/gin/ginvalidate.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/gin/ginxlog.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/gist/gist.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/gist/gistbuild.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/gist/gistbuildbuffers.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/gist/gistget.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/gist/gistproc.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/gist/gistscan.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/gist/gistsplit.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/gist/gistutil.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/gist/gistvacuum.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/gist/gistvalidate.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/gist/gistxlog.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/hash/hash.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/hash/hash_xlog.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/hash/hashfunc.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/hash/hashinsert.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/hash/hashovfl.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/hash/hashpage.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/hash/hashsearch.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/hash/hashsort.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/hash/hashutil.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/hash/hashvalidate.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/heap/heapam.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/heap/heapam_handler.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/heap/heapam_visibility.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/heap/hio.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/heap/pruneheap.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/heap/rewriteheap.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/heap/syncscan.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/heap/tuptoaster.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/heap/vacuumlazy.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/heap/visibilitymap.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/index/amapi.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/index/amvalidate.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/index/genam.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/index/indexam.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/nbtree/nbtcompare.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/nbtree/nbtinsert.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/nbtree/nbtpage.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/nbtree/nbtree.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/nbtree/nbtsearch.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/nbtree/nbtsort.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/nbtree/nbtsplitloc.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/nbtree/nbtutils.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/nbtree/nbtvalidate.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/nbtree/nbtxlog.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/rmgrdesc/brindesc.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/rmgrdesc/clogdesc.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/rmgrdesc/committsdesc.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/rmgrdesc/dbasedesc.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/rmgrdesc/genericdesc.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/rmgrdesc/gindesc.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/rmgrdesc/gistdesc.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/rmgrdesc/hashdesc.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/rmgrdesc/heapdesc.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/rmgrdesc/logicalmsgdesc.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/rmgrdesc/mxactdesc.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/rmgrdesc/nbtdesc.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/rmgrdesc/relmapdesc.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/rmgrdesc/replorigindesc.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/rmgrdesc/seqdesc.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/rmgrdesc/smgrdesc.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/rmgrdesc/spgdesc.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/rmgrdesc/standbydesc.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/rmgrdesc/tblspcdesc.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/rmgrdesc/xactdesc.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/rmgrdesc/xlogdesc.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/spgist/spgdoinsert.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/spgist/spginsert.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/spgist/spgkdtreeproc.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/spgist/spgproc.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/spgist/spgquadtreeproc.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/spgist/spgscan.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/spgist/spgtextproc.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/spgist/spgutils.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/spgist/spgvacuum.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/spgist/spgvalidate.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/spgist/spgxlog.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/table/table.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/table/tableam.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/table/tableamapi.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/tablesample/bernoulli.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/tablesample/system.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/tablesample/tablesample.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/transam/clog.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/transam/commit_ts.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/transam/generic_xlog.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/transam/multixact.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/transam/parallel.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/transam/rmgr.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/transam/slru.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/transam/subtrans.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/transam/timeline.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/transam/transam.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/transam/twophase.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/transam/twophase_rmgr.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/transam/varsup.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/transam/xact.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/transam/xlog.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/transam/xlogarchive.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/transam/xlogfuncs.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/transam/xloginsert.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/transam/xlogreader.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/access/transam/xlogutils.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/bootstrap/bootparse.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/bootstrap/bootstrap.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/catalog/aclchk.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/catalog/catalog.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/catalog/dependency.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/catalog/heap.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/catalog/index.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/catalog/indexing.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/catalog/namespace.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/catalog/objectaccess.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/catalog/objectaddress.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/catalog/partition.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/catalog/pg_aggregate.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/catalog/pg_collation.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/catalog/pg_constraint.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/catalog/pg_conversion.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/catalog/pg_db_role_setting.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/catalog/pg_depend.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/catalog/pg_enum.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/catalog/pg_inherits.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/catalog/pg_largeobject.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/catalog/pg_namespace.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/catalog/pg_operator.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/catalog/pg_proc.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/catalog/pg_publication.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/catalog/pg_range.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/catalog/pg_shdepend.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/catalog/pg_subscription.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/catalog/pg_type.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/catalog/storage.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/catalog/toasting.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/commands/aggregatecmds.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/commands/alter.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/commands/amcmds.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/commands/analyze.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/commands/async.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/commands/cluster.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/commands/collationcmds.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/commands/comment.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/commands/constraint.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/commands/conversioncmds.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/commands/copy.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/commands/createas.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/commands/dbcommands.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/commands/define.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/commands/discard.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/commands/dropcmds.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/commands/event_trigger.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/commands/explain.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/commands/extension.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/commands/foreigncmds.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/commands/functioncmds.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/commands/indexcmds.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/commands/lockcmds.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/commands/matview.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/commands/opclasscmds.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/commands/operatorcmds.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/commands/policy.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/commands/portalcmds.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/commands/prepare.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/commands/proclang.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/commands/publicationcmds.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/commands/schemacmds.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/commands/seclabel.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/commands/sequence.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/commands/statscmds.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/commands/subscriptioncmds.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/commands/tablecmds.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/commands/tablespace.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/commands/trigger.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/commands/tsearchcmds.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/commands/typecmds.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/commands/user.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/commands/vacuum.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/commands/variable.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/commands/view.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/executor/execAmi.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/executor/execCurrent.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/executor/execExpr.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/executor/execExprInterp.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/executor/execGrouping.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/executor/execIndexing.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/executor/execJunk.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/executor/execMain.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/executor/execParallel.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/executor/execPartition.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/executor/execProcnode.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/executor/execReplication.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/executor/execSRF.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/executor/execScan.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/executor/execTuples.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/executor/execUtils.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/executor/functions.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/executor/instrument.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/executor/nodeAgg.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/executor/nodeAppend.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/executor/nodeBitmapAnd.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/executor/nodeBitmapHeapscan.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/executor/nodeBitmapIndexscan.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/executor/nodeBitmapOr.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/executor/nodeCtescan.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/executor/nodeCustom.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/executor/nodeForeignscan.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/executor/nodeFunctionscan.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/executor/nodeGather.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/executor/nodeGatherMerge.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/executor/nodeGroup.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/executor/nodeHash.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/executor/nodeHashjoin.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/executor/nodeIndexonlyscan.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/executor/nodeIndexscan.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/executor/nodeLimit.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/executor/nodeLockRows.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/executor/nodeMaterial.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/executor/nodeMergeAppend.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/executor/nodeMergejoin.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/executor/nodeModifyTable.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/executor/nodeNamedtuplestorescan.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/executor/nodeNestloop.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/executor/nodeProjectSet.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/executor/nodeRecursiveunion.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/executor/nodeResult.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/executor/nodeSamplescan.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/executor/nodeSeqscan.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/executor/nodeSetOp.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/executor/nodeSort.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/executor/nodeSubplan.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/executor/nodeSubqueryscan.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/executor/nodeTableFuncscan.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/executor/nodeTidscan.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/executor/nodeUnique.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/executor/nodeValuesscan.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/executor/nodeWindowAgg.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/executor/nodeWorktablescan.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/executor/spi.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/executor/tqueue.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/executor/tstoreReceiver.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/foreign/foreign.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/jit/jit.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/lib/binaryheap.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/lib/bipartite_match.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/lib/bloomfilter.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/lib/dshash.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/lib/hyperloglog.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/lib/ilist.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/lib/integerset.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/lib/knapsack.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/lib/pairingheap.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/lib/rbtree.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/lib/stringinfo.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/libpq/auth-scram.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/libpq/auth.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/libpq/be-fsstubs.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/libpq/be-secure.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/libpq/crypt.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/libpq/hba.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/libpq/ifaddr.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/libpq/pqcomm.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/libpq/pqformat.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/libpq/pqmq.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/libpq/pqsignal.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/main/main.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/nodes/bitmapset.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/nodes/copyfuncs.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/nodes/equalfuncs.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/nodes/extensible.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/nodes/list.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/nodes/makefuncs.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/nodes/nodeFuncs.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/nodes/nodes.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/nodes/outfuncs.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/nodes/params.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/nodes/print.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/nodes/read.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/nodes/readfuncs.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/nodes/tidbitmap.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/nodes/value.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/optimizer/geqo/geqo_copy.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/optimizer/geqo/geqo_cx.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/optimizer/geqo/geqo_erx.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/optimizer/geqo/geqo_eval.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/optimizer/geqo/geqo_main.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/optimizer/geqo/geqo_misc.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/optimizer/geqo/geqo_mutation.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/optimizer/geqo/geqo_ox1.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/optimizer/geqo/geqo_ox2.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/optimizer/geqo/geqo_pmx.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/optimizer/geqo/geqo_pool.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/optimizer/geqo/geqo_px.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/optimizer/geqo/geqo_random.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/optimizer/geqo/geqo_recombination.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/optimizer/geqo/geqo_selection.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/optimizer/path/allpaths.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/optimizer/path/clausesel.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/optimizer/path/costsize.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/optimizer/path/equivclass.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/optimizer/path/indxpath.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/optimizer/path/joinpath.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/optimizer/path/joinrels.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/optimizer/path/pathkeys.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/optimizer/path/tidpath.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/optimizer/plan/analyzejoins.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/optimizer/plan/createplan.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/optimizer/plan/initsplan.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/optimizer/plan/planagg.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/optimizer/plan/planmain.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/optimizer/plan/planner.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/optimizer/plan/setrefs.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/optimizer/plan/subselect.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/optimizer/prep/prepjointree.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/optimizer/prep/prepqual.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/optimizer/prep/preptlist.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/optimizer/prep/prepunion.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/optimizer/util/appendinfo.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/optimizer/util/clauses.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/optimizer/util/inherit.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/optimizer/util/joininfo.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/optimizer/util/orclauses.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/optimizer/util/paramassign.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/optimizer/util/pathnode.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/optimizer/util/placeholder.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/optimizer/util/plancat.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/optimizer/util/predtest.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/optimizer/util/relnode.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/optimizer/util/restrictinfo.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/optimizer/util/tlist.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/optimizer/util/var.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/parser/analyze.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/parser/gram.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/parser/gram.h">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/parser/parse_agg.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/parser/parse_clause.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/parser/parse_coerce.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/parser/parse_collate.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/parser/parse_cte.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/parser/parse_enr.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/parser/parse_expr.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/parser/parse_func.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/parser/parse_node.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/parser/parse_oper.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/parser/parse_param.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/parser/parse_relation.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/parser/parse_target.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/parser/parse_type.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/parser/parse_utilcmd.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/parser/parser.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/parser/scan.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/parser/scansup.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/partitioning/partbounds.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/partitioning/partdesc.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/partitioning/partprune.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/port/atomics.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/port/pg_sema.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/port/pg_shmem.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/postmaster/autovacuum.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/postmaster/bgworker.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/postmaster/bgwriter.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/postmaster/checkpointer.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/postmaster/fork_process.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/postmaster/pgarch.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/postmaster/pgstat.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/postmaster/postmaster.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/postmaster/startup.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/postmaster/syslogger.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/postmaster/walwriter.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/regex/regcomp.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/regex/regerror.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/regex/regexec.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/regex/regexport.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/regex/regfree.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/regex/regprefix.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/replication/basebackup.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/replication/logical/decode.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/replication/logical/launcher.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/replication/logical/logical.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/replication/logical/logicalfuncs.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/replication/logical/message.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/replication/logical/origin.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/replication/logical/proto.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/replication/logical/relation.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/replication/logical/reorderbuffer.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/replication/logical/snapbuild.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/replication/logical/tablesync.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/replication/logical/worker.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/replication/repl_gram.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/replication/slot.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/replication/slotfuncs.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/replication/syncrep.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/replication/syncrep_gram.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/replication/walreceiver.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/replication/walreceiverfuncs.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/replication/walsender.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/rewrite/rewriteDefine.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/rewrite/rewriteHandler.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/rewrite/rewriteManip.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/rewrite/rewriteRemove.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/rewrite/rewriteSupport.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/rewrite/rowsecurity.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/statistics/dependencies.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/statistics/extended_stats.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/statistics/mcv.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/statistics/mvdistinct.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/storage/buffer/buf_init.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/storage/buffer/buf_table.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/storage/buffer/bufmgr.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/storage/buffer/freelist.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/storage/buffer/localbuf.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/storage/file/buffile.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/storage/file/copydir.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/storage/file/fd.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/storage/file/reinit.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/storage/file/sharedfileset.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/storage/freespace/freespace.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/storage/freespace/fsmpage.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/storage/freespace/indexfsm.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/storage/ipc/barrier.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/storage/ipc/dsm.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/storage/ipc/dsm_impl.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/storage/ipc/ipc.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/storage/ipc/ipci.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/storage/ipc/latch.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/storage/ipc/pmsignal.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/storage/ipc/procarray.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/storage/ipc/procsignal.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/storage/ipc/shm_mq.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/storage/ipc/shm_toc.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/storage/ipc/shmem.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/storage/ipc/shmqueue.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/storage/ipc/signalfuncs.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/storage/ipc/sinval.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/storage/ipc/sinvaladt.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/storage/ipc/standby.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/storage/large_object/inv_api.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/storage/lmgr/condition_variable.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/storage/lmgr/deadlock.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/storage/lmgr/lmgr.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/storage/lmgr/lock.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/storage/lmgr/lwlock.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/storage/lmgr/lwlocknames.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/storage/lmgr/lwlocknames.h">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/storage/lmgr/predicate.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/storage/lmgr/proc.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/storage/lmgr/s_lock.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/storage/lmgr/spin.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/storage/page/bufpage.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/storage/page/checksum.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/storage/page/itemptr.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/storage/smgr/md.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/storage/smgr/smgr.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/storage/sync/sync.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/tcop/dest.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/tcop/fastpath.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/tcop/postgres.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/tcop/pquery.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/tcop/utility.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/timezone/localtime.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/timezone/pgtz.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/timezone/pgtz.h">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/timezone/strftime.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/tsearch/dict.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/tsearch/dict_ispell.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/tsearch/dict_simple.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/tsearch/dict_synonym.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/tsearch/dict_thesaurus.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/tsearch/regis.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/tsearch/spell.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/tsearch/to_tsany.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/tsearch/ts_locale.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/tsearch/ts_parse.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/tsearch/ts_selfuncs.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/tsearch/ts_typanalyze.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/tsearch/ts_utils.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/tsearch/wparser.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/tsearch/wparser_def.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/acl.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/amutils.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/array_expanded.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/array_selfuncs.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/array_typanalyze.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/array_userfuncs.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/arrayfuncs.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/arrayutils.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/ascii.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/bool.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/cash.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/char.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/cryptohashes.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/date.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/datetime.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/datum.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/dbsize.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/domains.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/encode.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/enum.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/expandeddatum.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/expandedrecord.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/float.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/format_type.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/formatting.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/genfile.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/geo_ops.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/geo_selfuncs.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/geo_spgist.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/inet_cidr_ntop.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/inet_net_pton.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/int.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/int8.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/json.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/jsonb.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/jsonb_gin.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/jsonb_op.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/jsonb_util.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/jsonfuncs.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/jsonpath.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/jsonpath_exec.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/jsonpath_gram.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/like.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/like_support.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/lockfuncs.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/mac.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/mac8.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/misc.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/name.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/network.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/network_gist.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/network_selfuncs.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/network_spgist.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/numeric.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/numutils.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/oid.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/oracle_compat.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/orderedsetaggs.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/partitionfuncs.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/pg_locale.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/pg_lsn.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/pg_upgrade_support.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/pgstatfuncs.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/pseudotypes.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/quote.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/rangetypes.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/rangetypes_gist.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/rangetypes_selfuncs.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/rangetypes_spgist.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/rangetypes_typanalyze.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/regexp.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/regproc.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/ri_triggers.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/rowtypes.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/ruleutils.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/selfuncs.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/tid.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/timestamp.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/trigfuncs.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/tsginidx.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/tsgistidx.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/tsquery.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/tsquery_cleanup.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/tsquery_gist.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/tsquery_op.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/tsquery_rewrite.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/tsquery_util.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/tsrank.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/tsvector.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/tsvector_op.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/tsvector_parser.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/txid.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/uuid.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/varbit.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/varchar.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/varlena.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/version.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/windowfuncs.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/xid.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/adt/xml.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/cache/attoptcache.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/cache/catcache.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/cache/evtcache.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/cache/inval.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/cache/lsyscache.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/cache/partcache.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/cache/plancache.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/cache/relcache.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/cache/relfilenodemap.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/cache/relmapper.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/cache/spccache.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/cache/syscache.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/cache/ts_cache.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/cache/typcache.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/error/assert.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/error/elog.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/fmgr/dfmgr.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/fmgr/fmgr.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/fmgr/funcapi.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/fmgrtab.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/hash/dynahash.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/hash/hashfn.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/hash/pg_crc.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/init/globals.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/init/miscinit.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/init/postinit.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/mb/conv.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/mb/encnames.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/mb/mbutils.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/mb/wchar.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/mb/wstrcmp.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/mb/wstrncmp.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/misc/guc.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/misc/help_config.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/misc/pg_config.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/misc/pg_controldata.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/misc/pg_rusage.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/misc/ps_status.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/misc/queryenvironment.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/misc/rls.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/misc/sampling.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/misc/superuser.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/misc/timeout.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/misc/tzparser.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/mmgr/aset.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/mmgr/dsa.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/mmgr/freepage.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/mmgr/generation.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/mmgr/mcxt.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/mmgr/memdebug.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/mmgr/portalmem.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/mmgr/slab.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/resowner/resowner.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/sort/logtape.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/sort/sharedtuplestore.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/sort/sortsupport.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/sort/tuplesort.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/sort/tuplestore.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/time/combocid.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/utils/time/snapmgr.c">
+			<Option target="test_postgres"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.QsQp0qBlu9/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

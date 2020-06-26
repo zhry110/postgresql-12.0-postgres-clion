@@ -7,8 +7,6 @@ add_definitions("-Wall -Wmissing-prototypes -Wpointer-arith -Wdeclaration-after-
 add_definitions(-D_GNU_SOURCE)
 add_definitions(-DDLSUFFIX='.so')
 
-
-#include_directories(/home/dongbo/Desktop/postgresql-10.4/src/include)
 include_directories(include)
 link_directories(lib)
 
